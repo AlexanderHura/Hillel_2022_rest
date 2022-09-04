@@ -11,7 +11,7 @@
 Setup environment
 ```bash
 # Create virtual environment
-pipenv install
+pipenv sync
 # pipenv install --dev
 
 pipenv shell
@@ -20,8 +20,8 @@ pipenv shell
 Run django server
 ```bash
 # Run migrations only on a project setup
-python manage.py migrate
+python src/manage.py migrate
 
 # Run server
-python manage.py runserver
+python src/manage.py runserver
 ```

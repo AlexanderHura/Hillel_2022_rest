@@ -1,0 +1,10 @@
+.DS store
+
+# Editors / IDE
+./vscode
+
+# Pyrhon
+__pycash__/
+
+# SQLite
+*sqlite*
