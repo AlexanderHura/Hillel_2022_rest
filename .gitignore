@@ -1,10 +1,10 @@
 .DS store
 
 # Editors / IDE
-./vscode
+.vscode/
 
 # Pyrhon
-__pycash__/
+__pycache__/
 
 # SQLite
 *sqlite*
