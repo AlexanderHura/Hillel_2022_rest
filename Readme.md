@@ -6,6 +6,9 @@
 
 1. Install Python3.X
 2. Install Pipenv
+3. Black
+4. Flake8
+5. Isort
 
 # Setup project
 Setup environment
