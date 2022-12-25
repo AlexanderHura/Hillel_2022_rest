@@ -25,3 +25,26 @@ python src/manage.py migrate
 # Run server
 python src/manage.py runserver
 ```
+
+###  Black
+
+Setup
+```bash
+# Install black
+pip install black
+# pipenv install --dev
+```
+
+To get started right away with sensible defaults:
+
+```bash
+black src
+```
+
+You can run _Black_ as a package if running it as a script doesn't work:
+
+```bash
+python -m black src
+```
+
+
